@@ -18,6 +18,7 @@ MainWindow::MainWindow(QWidget *parent)
     g->addWidget(ui->clippingText, 0, 4, 1, 1);
     g->addWidget(ui->segments, 1, 4, 1, 1);
     g->addWidget(ui->poly, 2, 4, 1, 1);
+    g->addWidget(ui->sizeLabel, 3, 4, 1, 1);
     g->addWidget(ui->spinBox, 4, 4, 1, 1);
 
     centralWidget()->setLayout(g);
